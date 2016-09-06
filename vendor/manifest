@@ -13,6 +13,18 @@
 			"revision": "446ce99a42ffe050b77bdd761271f97dd1e2b554",
 			"branch": "master",
 			"path": "/dialects/postgres"
+		},
+		{
+			"importpath": "github.com/jinzhu/inflection",
+			"repository": "https://github.com/jinzhu/inflection",
+			"revision": "74387dc39a75e970e7a3ae6a3386b5bd2e5c5cff",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/lib/pq",
+			"repository": "https://github.com/lib/pq",
+			"revision": "50761b0867bd1d9d069276790bcd4a3bccf2324a",
+			"branch": "master"
 		}
 	]
 }
