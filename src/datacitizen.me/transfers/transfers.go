@@ -19,7 +19,7 @@ type DataTransferStatusResponse struct {
 
 // ToJSON Gets a Json representation of the response.
 func (dtsr DataTransferStatusResponse) ToJSON() ([]byte, error) {
-	return json.Marshall(dtsr)
+	return json.Marshal(dtsr)
 }
 
 // DataTransferConditionalResponse Provides status and a list of data records to be scrubbed.
@@ -44,6 +44,6 @@ type DataTransferResponse interface {
 // ===========
 
 // GetResponse Gets a response to a DataTransferRequest
-func (dtr DataTransferRequest) GetResponse() DataTransferResponse {
-	// TODO
-}
+// func (dtr DataTransferRequest) GetResponse() DataTransferResponse {
+//     // TODO
+// }
