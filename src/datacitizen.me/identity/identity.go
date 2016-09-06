@@ -7,6 +7,6 @@ import (
 
 type Identity struct {
 	gorm.Model
-	Signaure string // fully qualified identifier, e.g. code@axilent.com or AxilentEngine@@Twitter
-	Context  string // context of id, e.g. email or Twitter
+	Signature string // fully qualified identifier, e.g. code@axilent.com or AxilentEngine@@Twitter
+	Context   string // context of id, e.g. email or Twitter
 }
