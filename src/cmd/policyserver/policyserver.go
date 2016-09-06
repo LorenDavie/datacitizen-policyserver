@@ -5,8 +5,8 @@ import (
 	"fmt"
 )
 
-// Mainlinecd
+// Mainline
 func main() {
-	policy := identity.Identity{Name: "Main Identity"}
+	policy := identity.Identity{Signature: "Main Identity"}
 	fmt.Println(policy)
 }
